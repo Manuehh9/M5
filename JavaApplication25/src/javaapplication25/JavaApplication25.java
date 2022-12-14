@@ -4,6 +4,8 @@
  */
 package javaapplication25;
 
+import java.util.Scanner;
+
 /**
  *
  * @author garci
@@ -14,7 +16,8 @@ public class JavaApplication25 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Hola");
     }
     
 }
